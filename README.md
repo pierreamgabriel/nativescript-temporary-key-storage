@@ -19,7 +19,7 @@ Setting the key:
 keyStorage(myKeyGoesHere, 9000);
 ```
 
-Here we calling the "keyStorage" function passing two arguments. The first one is the key itself and the second is the amount of time (milliseconds) you want the database to change its encryption key. 
+Here we're calling the "keyStorage" function passing two arguments. The first one is the key itself and the second is the amount of time (milliseconds) you want the database to change its encryption key. 
 
 Getting the key:
 ```
