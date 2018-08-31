@@ -50,7 +50,7 @@ function reKey(arg, length) {
      }    
     
     this.deleteDb = function() {
-    Sqlite.deleteDatabase("storagetemp_storage");
+    Sqlite.deleteDatabase("temp_storage");
     }
     }
 
