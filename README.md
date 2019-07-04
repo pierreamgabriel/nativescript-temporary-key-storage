@@ -30,4 +30,4 @@ let mainKey = {key:""};
     }
     },0);    
 ```    
-We need to request the key `requestKey.returnKey();` inside a setTimout function, otherwise it will return nothing. We also need to check if any key was returned and that's why we used `if (mainKey.key === "")` in our example. 
+We need to request the key `requestKey.returnKey();` inside a setTimout function, otherwise, it will return nothing. We also need to check if any key was returned and that's why we used `if (mainKey.key === "")` in our example. 
