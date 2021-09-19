@@ -1,6 +1,6 @@
 {
   "name": "nativescript-temporary-key-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A temporary encrypted key storage for Android and iOS.",
   "main": "temp-key-storage-common.js",
 

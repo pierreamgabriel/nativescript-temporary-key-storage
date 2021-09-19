@@ -31,7 +31,6 @@ function reKey(arg, length) {
     let rekeyDb = {key: random};        
       new Sqlite("temp_storage.db", tempKey).then(db =>{           
       db.execSQL("PRAGMA rekey = '" + random + "';");
-          console.log("ok");
       }).then(function() {reKey(rekeyDb, setLength);});     
     }, length);
     
