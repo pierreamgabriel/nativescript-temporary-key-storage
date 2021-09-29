@@ -1,12 +1,14 @@
 {
   "name": "nativescript-temporary-key-storage",
-  "version": "1.0.4",
-  "description": "A temporary encrypted key storage for Android and iOS.",
+  "version": "1.0.5",
+  "description": "A temporary key storage for Android and iOS.",
   "main": "temp-key-storage-common.js",
-
+  "nativescript": {
+	
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pierremacedo/nativescript-temporary-key-storage.git"
+    "url": "https://github.com/pierremacedo/nativescript-temporary-key-storage.git"
   },
     "dependencies": {
     "crypto-js": "^3.1.9-1",
@@ -15,14 +17,14 @@
   "keywords": [
     "NativeScript",
     "storage",
-    "key-storage",
-    "secure-storage",
-    "nativescript-storage"
+    "key storage",
+    "secure storage",
+    "nativescript storage"
   ],
   "author": "Pierre Macedo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pierremacedo/nativescript-temporary-key-storage/issues"
   },
-  "homepage": "https://github.com/pierremacedo/nativescript-temporary-key-storage#readme"
+  "homepage": "https://github.com/pierremacedo/nativescript-temporary-key-storage"
 }
