@@ -44,7 +44,7 @@ function reKey(arg, length) {
       
     new Sqlite("temp_storage.db", tempKey).then(db =>{    
      db.all("SELECT * FROM key").then(rows => {
-            for(var row in rows) {
+            for(let row in rows) {
                 mainKey = rows[row][1]; 
             }
         });
